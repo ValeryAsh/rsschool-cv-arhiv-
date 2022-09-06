@@ -14,6 +14,7 @@
 **********
 
 I am 25 years old, purchasing manager. I want to work in IT because this is the future. I like to learn something new and I want to realize myself as a specialist. That's why I'm here. My goal is to gain knowledge in the field of front-end development and succeed through hard work.
+more programming i like only bjj:)
 ********
 
 ## My strengths:
