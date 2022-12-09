@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
-    <h1>MY RIGHT VERSION CV</h1>
-</body>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="all_cv">
+      <div class="contacts_and_skill">
+        <div class="my_foto">
+          <img class="avatar" src="./img/photo_2022-11-22_10-07-41.jpg" alt="avatar">
+        </div>
+        <div class="contact_info">
+          <h3>CONTACT</h3>
+          <div class="line_block"></div>
+          <div class="contact_number">
+            <img src="./img/phone.svg" alt="phone">
+            <p class="number_text">+995598904628</p>
+          </div>
+          <div class="contact_number">
+            <img src="./img/map-pin.svg" alt="map">
+           <a href="https://wallpapercave.com/wp/wp4059412.jpg"> <p class="number_text">Georgia, Tbilisi</p></a>
+          </div>
+          <div class="contact_number">
+            <img src="./img/email.svg" alt="email">
+            <p class="number_text">svarog26084@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact_info">
+          <h3>Redes Sociales</h3>
+          <div class="line_block"></div>
+          <div class="contact_number">
+            <img src="./img/facebook.svg" alt="fb">
+            <a href="https://www.facebook.com/profile.php?id=100080100318070" class="link_fb"><p class="number_text">Valery Asheychik</p></a>
+          </div>
+          <div class="contact_number">
+            <img src="./img/instagram.svg" alt="inst">
+            <a href="https://www.instagram.com/bydda_voploti/">
+              <p class="number_text">Bydda_voploti</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="main_text_education">
+        <header>
+          <nav>
+            <ul class="menu">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#strengths">My project</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#languages">Languages</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1>valery Asheychik</h1>
+        <div class="aboot_me" id="about">
+          <h2>About Me</h2>
+          <p class="main_text_education_text">
+            I am 25 years old, purchasing manager. I want to work in IT because
+            this is the future. I like to learn something new and I want to
+            realize myself as a specialist. That's why I'm here. My goal is to
+            gain knowledge in the field of front-end development and succeed
+            through hard work. I love my wife and BJJ :)
+          </p>
+        </div>
+        <div class="aboot_me" id="strengths">
+          <h2>My project</h2>
+          <ul class="strengths_list">
+            <li class="strengths_list_bit"><a href="https://ValeryAsh.github.io/rsschool-cv/">CV HTML + CSS</a></li>
+            <li class="strengths_list_bit"><a href="https://valeryash.github.io/rsschool-cv/cv">CV MD</a></li>
+          </ul>
+        </div>
+        <div class="aboot_me" id="code">
+          <h2>code</h2>
+          <p class="main_text_education_text">
+            function isPangram(string){<br>
+            let reString = string.toLowerCase().split(' ').join('')<br>
+            let arr = reString.split('').sort()<br>
+            let result = arr.filter((x, i) => arr.indexOf(x) === i);<br>
+            return result.length >= 26<br>
+            }
+          </p>
+        </div>
+        <div class="aboot_me" id="skills">
+          <h2>skills</h2>
+          <ul class="strengths_list">
+            <li class="strengths_list_bit">HTML</li>
+            <li class="strengths_list_bit">CSS</li>
+            <li class="strengths_list_bit">Figma</li>
+            <li class="strengths_list_bit">JS</li>
+          </ul>
+        </div>
+        <div class="aboot_me" id="education">
+          <h2>Education</h2>
+          <p class="main_text_education_text">
+            BELORUSSIAN TRADE-ECONOMIC UNIVERSITY OF CONSUMER COOPERATION<br>
+            commercial activity
+          </p>
+        </div>
+        <div class="aboot_me" id="languages">
+          <h2>Languages</h2>
+          <p class="main_text_education_text">
+            Belarusian - Native<br> Russian- Native <br> English- A2 (in the
+            process of studying)<br> Polish - A2
+          </p>
+        </div>
+        </main>
+        <footer>
+            <ul class="footer_block">
+                <li><a href="https://github.com/ValeryAsh?tab=repositories">GitHub</a></li>
+                <li>2022</li>
+                <li><a href="https://rs.school/js/"><img class="footer_img" src="./img/rs_school.svg" alt="rs"></a></li>
+              </ul>
+        </footer>  
+    </div>
+    </div>
+  </body>
 </html>
